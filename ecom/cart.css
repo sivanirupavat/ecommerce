@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.top-nav-bar{
+    height: 100px;
+    top: 0;
+    position: sticky;
+    
+    
+    
+}
+.form-control{
+    margin-top: 9px;
+    margin-bottom: 30px;
+    border: 1px solid chocolate !important;
+border-top-left-radius: 60px  !important;
+border-bottom-left-radius: 60px  !important;
+border-top-right-radius: 0 !important;
+border-bottom-right-radius: 0 !important;
+box-shadow: none;
+}
+.input-group-text{
+background-color:chocolate;
+border: 1px solid chocolate !important;
+ margin: 8.5px 10px 3px 0px !important;
+border-top-left-radius: 0 !important;
+border-bottom-left-radius: 0 !important;
+border-top-right-radius: 60px !important;
+border-bottom-right-radius: 60px  !important;
+cursor: pointer;
+}
+.search-box{
+    display: inline-flex;
+    width: 60%;
+}
+.fa-search{
+
+    background-color: #fff;
+}

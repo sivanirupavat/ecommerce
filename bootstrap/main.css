@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.top li{
+background-color: cadetblue;
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+width: 100%;
+}
+body{
+    background-image: url(desk.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 3900% ;
+ 
+}
+.top ul{
+list-style-type: none;
+display: flex;
+}
+.top a{
+    color:white;
+    text-decoration: none;
+   }
+.top a:hover{
+    background-color: white;
+    color: cadetblue;
+}
+.top ul li{
+    position:relative;
+    width: 100%;
+
+}
+.top li:hover .second >li{
+    display: block;
+}
+.second li{
+    display: none;
+    
+}
+.second{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.second li:hover .third>li{
+    display: block;
+}
+.third li{
+display: none;
+}
+.third{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:0;
+    left: 100%;
+    opacity: .9;
+}

@@ -1,0 +1,149 @@
+.jumbotron{
+    background-image: url(laww.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: black;
+    font-size: 25px;
+    -webkit-background-size:cover;
+    -moz-border-size:cover;  
+    -o-border-size:cover; 
+    
+    
+   
+}
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #007b5e !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
